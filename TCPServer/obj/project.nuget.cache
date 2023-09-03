@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IDqkV+ygid7LkdMtK7LbhJwqhyQ5nF9p5qGCEqrQBNUm2gqodFcvpWwuimB9vjpoTKB2uc5mBP4ZXG4ZwzCyjw==",
+  "dgSpecHash": "OjnUidwL1oT6imcidcDvQ1d1wL0AI7F4zeA3kwDkzMYvzANvMU559L0zsZ+1BElQj1nyW8AbFI7P9CxZzqkGkg==",
   "success": true,
-  "projectFilePath": "D:\\CODE\\C#\\ChessServer\\ChessServer\\ChessServer.csproj",
+  "projectFilePath": "C:\\Users\\MagicWheel\\Documents\\Code_Base\\C#\\TCP_TicTacToe\\TCPServer\\TCPServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

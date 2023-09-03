@@ -13,3 +13,17 @@ D:\CODE\C#\ChessServer\Client\obj\Debug\net7.0\refint\Client.dll
 D:\CODE\C#\ChessServer\Client\obj\Debug\net7.0\Client.pdb
 D:\CODE\C#\ChessServer\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
 D:\CODE\C#\ChessServer\Client\obj\Debug\net7.0\ref\Client.dll
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\bin\Debug\net7.0\Client.exe
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\bin\Debug\net7.0\Client.deps.json
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\bin\Debug\net7.0\Client.runtimeconfig.json
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\bin\Debug\net7.0\Client.dll
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\bin\Debug\net7.0\Client.pdb
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\Client.AssemblyInfoInputs.cache
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\Client.AssemblyInfo.cs
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\Client.dll
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\refint\Client.dll
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\Client.pdb
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\Client\obj\Debug\net7.0\ref\Client.dll

@@ -27,9 +27,11 @@ public class Server
     List<Socket> clients;
     int turn;
     NetworkStream stream;
+    TicTacToe board;
 
     public Server()
     {
+        board = new TicTacToe();
         clients = new List<Socket>();
         turn = 0;
         ipPoint = new IPEndPoint(IPAddress.Any, 8080);
@@ -52,29 +54,45 @@ public class Server
                 stream = new NetworkStream(clients[count]);
                 bytes = Encoding.UTF8.GetBytes($"Hello player {count + 1}!");
                 stream.Write(bytes, 0, bytes.Length);
-                stream.Flush();
                 count++;
             }
             else
-            {
+            {                
                 if (turn == 0)
                 {
                     stream = new NetworkStream(clients[0]);
+                    string desk = board.ConvertBoard();
+                    board.DrawBoard();
+                    bytes = Encoding.UTF8.GetBytes(desk);
+                    stream.Write(bytes, 0, 9);
                     byte[] response = new byte[256];
                     stream.Read(response);
                     string s = Encoding.UTF8.GetString(response);
-                    Console.WriteLine(s);
+                    board.SetFigure("X", s);
+                    board.WinX();
+                    if (board.WinState == "X")
+                    {
+                        break;
+                    }
                     turn = 1;
                 }
                 else if (turn == 1)
                 {
                     stream = new NetworkStream(clients[1]);
+                    string desk = board.ConvertBoard();
+                    board.DrawBoard();
+                    bytes = Encoding.UTF8.GetBytes(desk, 0, 9);
+                    stream.Write(bytes, 0, 9);
                     byte[] response = new byte[256];
                     stream.Read(response);
                     string s = Encoding.UTF8.GetString(response);
-                    Console.WriteLine(s);
+                    board.SetFigure("O", s);
+                    board.WinO();
+                    if (board.WinState == "O")
+                    {
+                        break;
+                    }
                     turn = 0;
-                    stream.Flush();
                 }
             }
         }
@@ -85,9 +103,10 @@ public class Server
         stream.Close();
         socket.Close();
     }
+
+    
 }
 
-[Serializable]
 public class TicTacToe
 {
     private List<List<string>> board;
@@ -125,10 +144,68 @@ public class TicTacToe
         }
     }
 
-    public void SetFigure(string figure, int x, int y)
+    public void SetFigure(string figure, string mes)
     {
-        figure = figure.ToUpper();
-        board[x][y] = figure;
+        if (mes[0] == 'l')
+        {
+            if (mes[1] == 'u')
+            {
+                board[0][0] = figure;
+            }
+            else if (mes[1] == 'm')
+            {
+                board[1][0] = figure;
+            }
+            else if (mes[1] == 'd')
+            {
+                board[2][0] = figure;
+            }
+        }
+        else if (mes[0] == 'm')
+        {
+            if (mes[1] == 'u')
+            {
+                board[0][1] = figure;
+            }
+            else if (mes[1] == 'm')
+            {
+                board[1][1] = figure;
+            }
+            else if (mes[1] == 'd')
+            {
+                board[2][1] = figure;
+            }
+        }
+        else if (mes[0] == 'r')
+        {
+            if (mes[1] == 'u')
+            {
+                board[0][2] = figure;
+            }
+            else if (mes[1] == 'm')
+            {
+                board[1][2] = figure;
+            }
+            else if (mes[1] == 'd')
+            {
+                board[2][2] = figure;
+            }
+        }
+    }
+
+    public string ConvertBoard()
+    {
+        string b = "";
+        foreach (var row in this.board)
+        {
+            foreach (var cell in row)
+            {
+                b += cell;
+
+            }
+        }
+
+        return b;
     }
 
     public void WinX()

@@ -4,6 +4,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>ChessServer</ActiveDebugProfile>
+    <ActiveDebugProfile>Client</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

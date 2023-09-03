@@ -1,0 +1,14 @@
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\bin\Debug\net7.0\TCPServer.exe
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\bin\Debug\net7.0\TCPServer.deps.json
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\bin\Debug\net7.0\TCPServer.runtimeconfig.json
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\bin\Debug\net7.0\TCPServer.dll
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\bin\Debug\net7.0\TCPServer.pdb
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\TCPServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\TCPServer.AssemblyInfoInputs.cache
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\TCPServer.AssemblyInfo.cs
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\TCPServer.dll
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\refint\TCPServer.dll
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\TCPServer.pdb
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\TCPServer.genruntimeconfig.cache
+C:\Users\MagicWheel\Documents\Code_Base\C#\TCP_TicTacToe\TCPServer\obj\Debug\net7.0\ref\TCPServer.dll
